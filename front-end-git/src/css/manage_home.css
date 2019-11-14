@@ -1,0 +1,108 @@
+.intent{
+    margin-left: 20px;
+}
+.entity{
+    margin-left: 20px;
+}
+/* css for table */
+.custab{
+    border: 1px solid #ccc;
+    padding: 5px;
+    /* margin: 5% 0; */
+    box-shadow: 3px 3px 2px #ccc;
+    transition: 0.5s;
+    width: 100%;
+}
+.custab:hover{
+    box-shadow: 3px 3px 0px transparent;
+    transition: 0.5s;
+}
+
+
+.dropdown-menu{
+    width: 113px;
+}
+.dropdown-menu li{
+    height: 30px;
+}
+.dropdown-menu li a{
+    height: 30px;
+    font-size: 15px;
+}
+
+/* css for table */
+.rt-tbody .rt-td{
+    height: 60px;
+    line-height: 45px;
+}
+.rt-tbody .rt-td .action-col{
+    width: 600px;
+    height: 50px;
+}
+.rt-tbody .rt-td .btn-info{
+    display: inline;
+}
+.rt-tbody .rt-td .btn-danger{
+    display: inline;
+}
+.rt-tbody .rt-td input{
+    background-color: #fff;
+    text-align: center;
+    border-color: 2px solid blue;
+    margin-top: -5px;
+}
+.rt-tbody .rt-td input:disabled{
+    /* background-color: red; */
+    border:none;
+}
+.rt-tbody .rt-td .savebutton{
+    display: inline;
+    float: right;
+    margin-top: 0px;
+    margin-right: 5px;
+}
+
+.row_value{
+    background-color: red;
+}
+
+.divhead{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+h1{
+    color:blue;
+    display: inline;
+    margin-left: 20px;
+}
+.input-container{
+    display: inline;
+    float: right;
+}
+.input-container .input-field{ 
+    height: 40px;
+    margin-right: -8px;
+    /* width: 300px; */
+    /* position: absolute; */
+    width: 0px;
+    float: Left;
+
+    -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out;
+    height: 44px;
+    line-height: 18px;
+    padding: 0 2px 0 2px;
+    border-radius:1px;
+    font-size: 20px;
+}
+.input-container:hover input, .input-container input:focus {
+    width: 300px;
+    margin-left: 0px;
+}
+.input-container .btn-info{
+    margin-top: 0px;
+    margin-left: 0px;
+    border-radius:1px;
+}

@@ -1,0 +1,228 @@
+*{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.main_css{
+  padding: 0;
+  background-color: whitesmoke;
+}
+
+.body{
+  min-height: 1000px;
+  background-color: whitesmoke;
+}
+.main-form{
+  background-color: white;
+  width: 100%;
+  min-height: 600px;
+  border: 1px solid #6cb1f7;
+  border-radius: 10px
+}
+.main-form p{
+  font-size: 16px;
+  font-weight: bold;  
+  color:rgb(30, 152, 223);
+}
+.main{
+  margin-left: 25px;
+}
+/* ============css for form question=================== */
+.main-form .f1{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 150px;
+}
+.main-form .f1 small{
+  font-size: 13px;
+}
+.main-form .fc1{
+  height: 50px;
+  font-size: 20px;
+  margin-left: 30px;
+  margin-top: 40px;
+  width: 85%;
+  display: inline;
+}
+/* ===============css for entities====================== */
+.form-group{
+  width: 98%;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  height: auto;
+}
+.form-group .col-1{
+  margin-top: 5px;
+  text-align: center;
+  font-size: 20px;
+}
+.form-group .col-2{
+  margin-top: 7px;
+  max-width: 140px;
+  line-height: 24px;
+}
+.fc{
+  width: 72%;
+  height: 40px;
+  font-size: 18px;
+}
+
+/* =================css for action form ================== */
+.ac{
+  width: 95%;
+}
+.ac i{
+  padding: 0 15px 0 15px;
+  font-size: 20px;
+}
+.ac input{
+  width: 90%;
+  height: 50px;
+  font-size: 20px;
+}
+
+/* =============css for button==================== */
+.bot{
+  height: 55px;
+}
+.btn{
+  font-size: 18px;
+  text-align: right;
+  margin-top: 20px;
+  margin-left: 5px;
+  margin-right: 40px;
+}
+.btn_learn{
+  margin-right: 5px;
+}
+
+.modal{
+  width: 2000px;
+}
+
+
+/* css for menu */
+/* .sideMenu{
+  height: 100%;
+  width:  225px;
+  margin-left: -170px;
+  position: fixed;
+  margin-top: 80px;
+  top: 0;
+  left: 0;
+  background: linear-gradient(rgb(17, 141, 199),rgb(197, 222, 236))
+}
+.sideMenu ul{
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+.sideMenu li{
+  padding-bottom: 30px;
+}
+.sideMenu a{
+  text-decoration: none;
+  margin-bottom: 30px;
+  font-size: 1.8rem;
+  color: orange;
+  display: block;
+  transition:  0.1s;
+}
+.sideMenu .d-inline{
+  text-decoration: none;
+  margin-bottom: 30px;
+  font-size: 1.8rem;
+  color: orange;
+  display: block;
+  transition:  0.1s;
+}
+.sideMenu a:hover{
+  color: red
+}
+.active{
+  color: black
+}
+
+.fa-menu{
+  font-size: 1.8em;
+  float: right;
+  line-height: 43px;
+  margin-right: 15px;
+} */
+
+/* css for tabs */
+.panel.with-nav-tabs .panel-heading{
+  padding: 5px 5px 0 5px;
+}
+
+.panel.with-nav-tabs .nav-tabs{
+border-bottom: none;
+}
+.panel.with-nav-tabs .nav-justified{
+margin-bottom: -1px;
+}/*** PANEL PRIMARY ***/
+
+.panel-primary{
+  position: absolute;
+  left: 5%;
+  width: 90%;
+  margin-top: 40px;
+  min-height: 60%
+
+}
+
+.with-nav-tabs.panel-primary .nav-tabs > li > a,
+.with-nav-tabs.panel-primary .nav-tabs > li > a:hover,
+.with-nav-tabs.panel-primary .nav-tabs > li > a:focus {
+    font-size: 18px;
+    color: #fff;
+}
+.with-nav-tabs.panel-primary .nav-tabs > .open > a,
+.with-nav-tabs.panel-primary .nav-tabs > .open > a:hover,
+.with-nav-tabs.panel-primary .nav-tabs > .open > a:focus,
+.with-nav-tabs.panel-primary .nav-tabs > li > a:hover,
+.with-nav-tabs.panel-primary .nav-tabs > li > a:focus {
+	color: #fff;
+	background-color: #3071a9;
+  border-color: transparent;
+  font-size: 18px;
+}
+.with-nav-tabs.panel-primary .nav-tabs > li.active > a,
+.with-nav-tabs.panel-primary .nav-tabs > li.active > a:hover,
+.with-nav-tabs.panel-primary .nav-tabs > li.active > a:focus {
+	color: #428bca;
+	background-color: #fff;
+	border-color: #428bca;
+  border-bottom-color: transparent;
+  font-size: 18px;
+}
+
+.with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu {
+  background-color: #428bca;
+  border-color: #3071a9;
+}
+.with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu > li > a {
+  color: #fff;   
+}
+.with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu > li > a:hover,
+.with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu > li > a:focus {
+  background-color: #3071a9;
+}
+.with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu > .active > a,
+.with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu > .active > a:hover,
+.with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu > .active > a:focus {
+  background-color: #4a9fe9;
+}
+
+.show ul{
+  width: 113px;
+  background-color: #fff;
+}
+.show li a{
+  height: 25px;
+  font-size: 15px;
+}
