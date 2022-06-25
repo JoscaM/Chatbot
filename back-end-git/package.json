@@ -19,7 +19,7 @@
     "fuzzyset.js": "0.0.8",
     "md5": "^2.2.1",
     "mongoose": "^5.6.3",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.7",
     "node-wit": "^5.0.0",
     "nodemon": "^1.19.1"
   }
